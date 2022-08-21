@@ -1,4 +1,4 @@
-# marta-app
+# smart-app
 
 https://www.smartimobiliario.com.br
 
