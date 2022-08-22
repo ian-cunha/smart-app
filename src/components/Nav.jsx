@@ -3,16 +3,19 @@ import logo from "../assets/logoSmart.svg";
 function Nav() {
   return (
     <div>
-      <nav class="navbar fixed-top navbar-expand-lg bg-5">
+      <nav class="menu navbar fixed-top navbar-expand-lg bg-5">
         <div class="container-fluid">
-          <a class="navbar-brand" href="/"><img width="150px" class="d-inline-block align-text-top" src={logo} alt="Smart" /></a>
+          <a class="navbar-brand" href="/"><img width="130px" class="d-inline-block align-text-top" src={logo} alt="Smart" /></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="text-light"><i class="bi bi-list"></i></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll fw-semibold">
               <li class="nav-item">
-                <a class="nav-link navbutton" aria-current="page" href="#software">Software</a>
+                <a class="nav-link navbutton" aria-current="page" href="#">Página inicial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navbutton" href="#software">Software</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link navbutton" href="#sites">Sites</a>

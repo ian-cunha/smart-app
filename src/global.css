@@ -66,7 +66,7 @@ body {
 }
 
 .bg-2 {
-  background-color: #FFAA03;
+  background-color: #E36108;
 }
 
 .bg-3 {
@@ -77,8 +77,12 @@ body {
   background-color: #111111;
 }
 
-.bg-5 {
+.bkp-bg-5 {
   background: rgba(0, 0, 0, 0);
+}
+
+.bg-5 {
+  background: rgba(0, 0, 0, 0.411);
 }
 
 @media (max-width: 600px) {
@@ -162,4 +166,65 @@ a.btn-whatsapp:hover {
   background-color: white;
   color: #ffffff;
   background-color: #00000000;
+}
+
+h6.grid-color {
+  color: #221549;
+}
+
+nav.nav {
+  background-color: #221549;
+}
+
+nav.nav2 {
+  background-color: #E36108;
+}
+
+@keyframes myanimation {
+  0% {
+    background-color: transparent;
+    color: transparent;
+  }
+
+  35% {
+    background-color: gray;
+    color: rosybrown;
+  }
+
+  100% {
+    background-color: gray;
+    color: rosybrown;
+  }
+}
+
+.site-img {
+  width: 50%;
+  overflow: hidden;
+}
+
+@media (max-width: 600px) {
+  .site-img {
+    display: none;
+  }
+}
+
+.card {
+  margin: 24px;
+  width: 40rem;
+  max-width: 100%;
+}
+
+@media (max-width: 600px) {
+  .card {
+    margin: 0;
+    margin-bottom: 24px;
+  }
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.migracao {
+  max-width: 80%;
 }
