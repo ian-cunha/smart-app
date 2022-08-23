@@ -40,73 +40,111 @@ import migrar from "../assets/migrar.svg";
 function Content() {
   return (
     <div id="home">
+
+      <button type="button" data-bs-toggle="modal" data-bs-target="#whatsappModal" className="wpp-button">
+        <i className="bi bi-whatsapp"></i>
+      </button>
+
+      <div className="modal fade" id="whatsappModal" tabindex="-1" aria-labelledby="whatsappModalLabal" aria-hidden="true">
+        <div className="modal-dialog">
+          <div className="modal-content">
+            <div className="modal-header">
+              <h3 className="modal-title" id="whatsappModalLabal"><i class="bi bi-person-lines-fill"></i> Fale com um consultor</h3>
+              <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div className="modal-body">
+              <form name="formContato" method="post" action="https://app.smart.youdigital.com.br/atendimento/cadastrarContatosOnline">
+                <fieldset>
+                  <div>
+                    <label for="contatoNome" className="form-label text-light">Nome</label>
+                    <input type="text" className="form-control form-control-lg" name="nome_contato" id="contatoNome" required placeholder="Nome" />
+                  </div>
+                  <div>
+                    <label for="contatoEmail" className="form-label text-light">Email</label>
+                    <input type="email" className="form-control form-control-lg" name="email" id="contatoEmail" required placeholder="E-mail" />
+                  </div>
+                  <div>
+                    <label for="contatoTelefone" className="form-label text-light">Whatsapp</label>
+                    <input type="tel" maxlength="11" className="form-control form-control-lg" name="telefone" id="contatoTelefone" required placeholder="Whatsapp" />
+                  </div>
+                  <button type="submit" className="btn btn-submit btn-lg w-100 mt-4">Quero saber mais! <i className="bi bi-arrow-right-circle"></i></button>
+                  <p className="mt-2 fw-light"><i class="bi bi-shield-check"></i> Garantimos a privacidade de seus dados</p>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="content text-light">
         <h1 className="fw-bold">Sistema imobiliário completo com site de imóveis</h1>
         <h2 className="fw-normal fs-5">Criado para ajudar você a priorizar negócios, acompanhar seu desempenho e não perder oportunidades.</h2>
-        <h3>AUMENTE JÁ SUAS VENDAS <i class="bi bi-graph-up-arrow"></i></h3>
+        <h3>AUMENTE JÁ SUAS VENDAS <i className="bi bi-graph-up-arrow"></i></h3>
         <div className="d-flex justify-content-center align-items-center flex-sm-row flex-column">
-          <a type="button" href="/" class="btn btn-whatsapp m-2 p-2"><i class="bi bi-whatsapp"></i> Fale com um consultor</a>
-          <a type="button" href="/Gratuito" class="btn btn-gratuito m-2 p-2">Plano Gratuito <i class="bi bi-arrow-right"></i></a>
+          <button type="button" className="btn btn-whatsapp m-2 p-2" data-bs-toggle="modal" data-bs-target="#whatsappModal">
+            <i className="bi bi-whatsapp"></i> Fale com um consultor
+          </button>
+          <a type="button" href="/Gratuito" className="btn btn-gratuito m-2 p-2">Plano Gratuito <i className="bi bi-arrow-right"></i></a>
         </div>
       </div>
       <div id="software">
         <h2 className="mt-5 fs-1 color-1 p-2">Gestão inteligente de seus negócios</h2>
         <h4 className="mt-2 mb-5 fs-5 fw-normal p-2">Acesse seus imóveis e publique em portais em uma única plataforma.</h4>
         <div className="container text-center">
-          <div class="row p-2">
-            <div class="col mt-2">
+          <div className="row p-2">
+            <div className="col mt-2">
               <img src={grid1} alt="Anúncio em Portais" />
               <h6 className="grid-color mt-2">Anúncio em Portais</h6>
               <p>Integre automaticamente seus imóveis com portais imobiliários.</p>
             </div>
-            <div class="col mt-2">
+            <div className="col mt-2">
               <img src={grid2} alt="Site de Imóveis" />
               <h6 className="grid-color mt-2">Site de Imóveis</h6>
               <p>Divulgue seus imóveis em seu próprio site.</p>
             </div>
-            <div class="col mt-2">
+            <div className="col mt-2">
               <img src={grid3} alt="Funil de vendas" />
               <h6 className="grid-color mt-2">Funil de vendas</h6>
               <p>Controle a jornada de venda do seu imóvel, em tempo real.</p>
             </div>
-            <div class="col mt-2">
+            <div className="col mt-2">
               <img src={grid4} alt="Atendimento a Clientes" />
               <h6 className="grid-color mt-2">Atendimento a Clientes</h6>
               <p>Contato direto com o cliente via WhatsApp, através do número cadastrado no sistema.</p>
             </div>
-            <div class="col mt-2">
+            <div className="col mt-2">
               <img src={grid5} alt="Gestão de Imóveis" />
               <h6 className="grid-color mt-2">Gestão de Imóveis</h6>
               <p>Tenha cadastros ilimitados e acesso a todos os seus imóveis em uma única plataforma.</p>
             </div>
-            <div class="col mt-2">
+            <div className="col mt-2">
               <img src={grid6} alt="Realize Parcerias" />
               <h6 className="grid-color mt-2">Anúncio em Portais</h6>
               <p>Amplie sua rede de negócios online, encontrando parceiros da sua região.</p>
             </div>
           </div>
-          <div class="row p-2">
-            <div class="col mt-2">
+          <div className="row p-2">
+            <div className="col mt-2">
               <img src={grid7} alt="Detetive Imobiliário" />
               <h6 className="grid-color mt-2">Detetive Imobiliário</h6>
               <p>Encontre o match ideal entre clientes interessados e suas captações de imóveis.</p>
             </div>
-            <div class="col mt-2">
+            <div className="col mt-2">
               <img src={grid8} alt="Painel de Controle - Dashboard" />
               <h6 className="grid-color mt-2">Painel de Controle - Dashboard</h6>
               <p>Visualize suas oportunidades de negócios e fases de venda, atenda com agilidade seus clientes, entre outras facilidades</p>
             </div>
-            <div class="col v">
+            <div className="col v">
               <img src={grid9} alt="Roteiro de Visitas" />
               <h6 className="grid-color mt-2">Roteiro de Visitas</h6>
               <p>Acompanhe como foram as visitas aos imóveis e o feedback dos clientes.</p>
             </div>
-            <div class="col mt-2">
+            <div className="col mt-2">
               <img src={grid10} alt="Feedback ao Proprietário" />
               <h6 className="grid-color mt-2">Feedback ao Proprietário</h6>
               <p>Relacionamento com os proprietários através de informações completas e automáticas do processo de venda.</p>
             </div>
-            <div class="col mt-2">
+            <div className="col mt-2">
               <img src={grid11} alt="Compartilha Imóveis" />
               <h6 className="grid-color mt-2">Compartilha Imóveis</h6>
               <p>Compartilhe imóveis compatíveis com interesse de seu cliente via whatsapp e email.</p>
@@ -135,56 +173,56 @@ function Content() {
         <h2 className="mt-5 pt-5 fs-1 text-light p-2">Integração com os principais portais</h2>
         <h4 className="mt-2 mb-5 fs-5 text-light fw-normal p-2">Anuncie seus imóveis e aumente a visibilidade de seu negócio!</h4>
         <div className="container text-center pb-5">
-          <div class="row p-2">
-            <div class="col mt-2">
+          <div className="row p-2">
+            <div className="col mt-2">
               <img width="150px" src={expo} alt="Chave Fácil" />
             </div>
-            <div class="col mt-2">
+            <div className="col mt-2">
               <img width="200px" src={mercadolivre} alt="Mercado Livre" />
             </div>
-            <div class="col mt-2">
+            <div className="col mt-2">
               <img width="200px" src={ademi} alt="Ademi" />
             </div>
-            <div class="col mt-2">
+            <div className="col mt-2">
               <img width="100px" src={olx} alt="Olx" />
             </div>
           </div>
-          <div class="row p-2">
-            <div class="col mt-2">
+          <div className="row p-2">
+            <div className="col mt-2">
               <img width="200px" src={vivareal} alt="Viva Real" />
             </div>
-            <div class="col mt-2">
+            <div className="col mt-2">
               <img width="130px" src={casamineira} alt="Casa Mineira" />
             </div>
-            <div class="col mt-2">
+            <div className="col mt-2">
               <img width="150px" src={chave} alt="Chave Fácil" />
             </div>
-            <div class="col mt-2">
+            <div className="col mt-2">
               <img width="100px" src={creci} alt="Portal Creci" />
             </div>
           </div>
-          <div class="row p-2">
-            <div class="col mt-2">
+          <div className="row p-2">
+            <div className="col mt-2">
               <img width="150px" src={df} alt="DF Imóveis" />
             </div>
-            <div class="col mt-2">
+            <div className="col mt-2">
               <img width="200px" src={dreamcasa} alt="Dream Casa" />
             </div>
-            <div class="col mt-2">
+            <div className="col mt-2">
               <img width="150px" src={imoWeb} alt="ImoWEB" />
             </div>
-            <div class="col mt-2">
+            <div className="col mt-2">
               <img width="180px" src={lugarcerto} alt="Lugar Certo" />
             </div>
           </div>
-          <div class="row p-2">
-            <div class="col mt-2">
+          <div className="row p-2">
+            <div className="col mt-2">
               <img width="200px" src={smartxml} alt="Smart XML" />
             </div>
-            <div class="col mt-2">
+            <div className="col mt-2">
               <img width="100px" src={zap} alt="Zap Imóveis" />
             </div>
-            <div class="col mt-2">
+            <div className="col mt-2">
               <img width="200px" src={moving} alt="Moving" />
             </div>
           </div>
@@ -218,38 +256,38 @@ function Content() {
         </div>
       </div>
       <div id="clientes" className="clientes">
-        <h2 className="mt-5 fs-1 color-1 p-2">O que nossos clientes dizem <i class="bi bi-arrow-down-left"></i></h2>
+        <h2 className="mt-5 fs-1 color-1 p-2">O que nossos clientes dizem <i className="bi bi-arrow-down-left"></i></h2>
         <div className="container d-flex justify-content-center flex-sm-row flex-column">
-          <div class="card">
-            <img src={dimas} class="card-img-top p-5" alt="Dimas" />
-            <div class="card-body">
-              <h5 class="card-title fs-3">Dimas</h5>
-              <h6 class="card-title fw-semibold">Diretor da Acelera Imobiliária</h6>
-              <p class="card-text">Com o Smart tento uma plataforma moderna para gerenciar meus anúncios em vários portais, enviar material para cliente  e fazer acompanhamento, além de poder acessá-lo 24hs! Tudo na palma da mão!</p>
+          <div className="card">
+            <img src={dimas} className="card-img-top p-5" alt="Dimas" />
+            <div className="card-body">
+              <h5 className="card-title fs-3">Dimas</h5>
+              <h6 className="card-title fw-semibold">Diretor da Acelera Imobiliária</h6>
+              <p className="card-text">Com o Smart tento uma plataforma moderna para gerenciar meus anúncios em vários portais, enviar material para cliente  e fazer acompanhamento, além de poder acessá-lo 24hs! Tudo na palma da mão!</p>
             </div>
           </div>
-          <div class="card">
-            <img src={valeria} class="card-img-top p-5" alt="Valéria" />
-            <div class="card-body">
-              <h5 class="card-title fs-3">Valéria</h5>
-              <h6 class="card-title fw-semibold">Dimas Cruz e Valéria Lucena</h6>
-              <p class="card-text">O Smart me proporciona atender meus clientes com velocidade, praticidade e profissionalismo! Consigo oferecer o mesmo atendimento dado por grandes imobiliárias! Tô muito satisfeita!</p>
+          <div className="card">
+            <img src={valeria} className="card-img-top p-5" alt="Valéria" />
+            <div className="card-body">
+              <h5 className="card-title fs-3">Valéria</h5>
+              <h6 className="card-title fw-semibold">Dimas Cruz e Valéria Lucena</h6>
+              <p className="card-text">O Smart me proporciona atender meus clientes com velocidade, praticidade e profissionalismo! Consigo oferecer o mesmo atendimento dado por grandes imobiliárias! Tô muito satisfeita!</p>
             </div>
           </div>
-          <div class="card">
-            <img src={rogerio} class="card-img-top p-5" alt="Rogério" />
-            <div class="card-body">
-              <h5 class="card-title fs-3">Rogério</h5>
-              <h6 class="card-title fw-semibold">Rio Lar imóveis</h6>
-              <p class="card-text">Minha experiência com a Smart Imobiliário foi simplesmente fora do comum. qualidade e competência estas duas palavras traduzem o atendimento que a Smart emprega nos serviços que realiza, os quais faço questão de destacar.</p>
+          <div className="card">
+            <img src={rogerio} className="card-img-top p-5" alt="Rogério" />
+            <div className="card-body">
+              <h5 className="card-title fs-3">Rogério</h5>
+              <h6 className="card-title fw-semibold">Rio Lar imóveis</h6>
+              <p className="card-text">Minha experiência com a Smart Imobiliário foi simplesmente fora do comum. qualidade e competência estas duas palavras traduzem o atendimento que a Smart emprega nos serviços que realiza, os quais faço questão de destacar.</p>
             </div>
           </div>
-          <div class="card">
-            <img src={conlar} class="card-img-top p-5" alt="Conlar" />
-            <div class="card-body">
-              <h5 class="card-title fs-3">Iris Anjo</h5>
-              <h6 class="card-title fw-semibold">Conlar empreendimentos</h6>
-              <p class="card-text">Estamos muito satisfeitos com o serviço da Smart Empreendimentos! Desde já, manifestamos aqui o nosso contentamento com a agilidade do sistema e profissionalismo da equipe. Esperamos continuar esta parceria, facilitando  nossa relação com nossos clientes. Parabéns!</p>
+          <div className="card">
+            <img src={conlar} className="card-img-top p-5" alt="Conlar" />
+            <div className="card-body">
+              <h5 className="card-title fs-3">Iris Anjo</h5>
+              <h6 className="card-title fw-semibold">Conlar empreendimentos</h6>
+              <p className="card-text">Estamos muito satisfeitos com o serviço da Smart Empreendimentos! Desde já, manifestamos aqui o nosso contentamento com a agilidade do sistema e profissionalismo da equipe. Esperamos continuar esta parceria, facilitando  nossa relação com nossos clientes. Parabéns!</p>
             </div>
           </div>
         </div>
