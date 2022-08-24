@@ -13,11 +13,17 @@ function Whatsapp() {
               <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div className="modal-body">
-              <form name="formContato" method="post" action="/">
+              <form name="formContato" method="post" target="_blank" action="https://app.smart.youdigital.com.br/atendimento/cadastrarContatosOnline">
 
+                <input type="hidden" name="url_origem" value="https://www.smartimobiliario.com.br" />
+                <input type="hidden" name="id_empresa" value="7341" />
+                <input type="hidden" name="id_empreendimento" value="" />
+                <input type="hidden" name="tipo_origem" value="3" />
+                <input type="hidden" name="id_outra_origem" value="5" />
+                <input type="hidden" name="id_detalhe_outra_origem" value="820" />
+                <input type="hidden" name="tipo_de_interesse" value="0" />
                 <input type="hidden" name="idAcao" value="0" />
                 <input type="hidden" name="mensagem" id="mensagem" value="Quero ter mais informações." />
-                <input type="hidden" id="codigo-anuncio" value="" />
 
                 <fieldset>
                   <div>

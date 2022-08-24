@@ -128,10 +128,10 @@ function Content() {
             <img src={smartphone} alt="Smartphone" />
           </div>
           <div className="d-flex flex-sm-row flex-column justify-content-center">
-            <a target="_blank" href="https://apps.apple.com/br/app/smart-imobiliario/id1128234098">
+            <a target="_blank" href="https://play.google.com/store/apps/details?id=br.com.youdigital.smartimobiliario">
               <img className="m-1" width='200px' src={googleplay} alt="Google Play" />
             </a>
-            <a target="_blank" href="https://play.google.com/store/apps/details?id=br.com.youdigital.smartimobiliario">
+            <a target="_blank" href="https://apps.apple.com/br/app/smart-imobiliario/id1128234098">
               <img className="m-1" width='200px' src={apple} alt="Apple Store" />
             </a>
           </div>
