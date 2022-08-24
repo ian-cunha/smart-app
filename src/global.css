@@ -10,7 +10,7 @@
   height: auto;
   padding: 24px;
   padding-top: 200px;
-  padding-bottom: 200px;
+  padding-bottom: 150px;
   background: url("./assets/desktop.webp");
   background-position: center;
   background-repeat: no-repeat;
@@ -124,6 +124,18 @@ a.buttonplanos:focus {
   color: #FF5A2D;
 }
 
+button.btn-orange {
+  background-color: #E36108;
+  color: white;
+}
+
+button.btn-orange:hover {
+  background-color: rgb(0, 0, 0);
+  color: #000000;
+  background-color: #ffffff00;
+}
+
+
 a.btn-orange {
   background-color: #E36108;
   color: white;
@@ -144,6 +156,17 @@ a.btn-blue:hover {
   background-color: white;
   color: #ffffff;
   background-color: #00000000;
+}
+
+a.btn-blue2 {
+  background-color: #221549;
+  color: white;
+}
+
+a.btn-blue2:hover {
+  background-color: rgb(0, 0, 0);
+  color: #221549;
+  background-color: #ffffff00;
 }
 
 a.btn-gratuito {
@@ -183,31 +206,6 @@ h6.grid-color {
   color: #221549;
 }
 
-nav.nav {
-  background-color: #221549;
-}
-
-nav.nav2 {
-  background-color: #E36108;
-}
-
-@keyframes myanimation {
-  0% {
-    background-color: transparent;
-    color: transparent;
-  }
-
-  35% {
-    background-color: gray;
-    color: rosybrown;
-  }
-
-  100% {
-    background-color: gray;
-    color: rosybrown;
-  }
-}
-
 .site-img {
   width: 50%;
   overflow: hidden;
@@ -240,22 +238,26 @@ nav.nav2 {
   max-width: 80%;
 }
 
-.wpp-button{
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:15px;
-	right:15px;
-	background-color:#25d366;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-  font-size:30px;
-  z-index:100;
+.wpp-button {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 15px;
+  right: 15px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 100;
   border: 0;
 }
 
 .wpp-button:hover {
-  background-color:#075e54;
-  color:#FFF;
+  background-color: #075e54;
+  color: #FFF;
+}
+
+.planos {
+  overflow: hidden;
 }

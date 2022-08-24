@@ -1,6 +1,6 @@
 import logo from "../assets/logoSmart.svg";
 
-function Nav() {
+function NavSec() {
   return (
     <div>
       <nav className="navbar fixed-top navbar-expand-lg bg-5">
@@ -15,19 +15,7 @@ function Nav() {
                 <a className="nav-link navbutton" aria-current="page" href="#"><i className="bi bi-arrow-up-square"></i></a>
               </li>
               <li className="nav-item">
-                <a className="nav-link navbutton" href="#software">Software</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link navbutton" href="#sites">Sites</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link navbutton" href="#clientes">Clientes</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link navbutton" target="_blank" href="https://www.youtube.com/channel/UCeAgtObzcuLG6DLb0rcywyA/videos">Videos</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link buttonplanos fw-bold" href="/planos">Planos</a>
+                <a className="nav-link navbutton" href="/">Página inicial</a>
               </li>
             </ul>
             <a className="btn store desktop" target="_blank" href="https://play.google.com/store/apps/details?id=br.com.youdigital.smartimobiliario"><i className="bi bi-google-play"></i></a>
@@ -42,4 +30,4 @@ function Nav() {
   )
 }
 
-export default Nav
+export default NavSec

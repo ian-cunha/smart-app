@@ -40,6 +40,28 @@
   "logo": "https://www.smartimobiliario.com.br/imagens/logoS.png"
 }
 </script>
+  <script type="text/javascript">
+    let options = {
+      "trackView": true,
+      "contatoFieldToInputNameMap": {
+        "telefone": "telefone",
+        "mensagem": "mensagem",
+        "nome": "nome_contato",
+        "email": "email"
+      },
+      "fillForms": true,
+      "contatoFormSelector": "formContato"
+    };
+    let contatoCallBackFunction = function (evt) {
+      console.log("contato submetido");
+    };
+    options.contatoCallBackFunction = contatoCallBackFunction;
+
+    function initMTag() {
+      martaTrackingTag = new mtag("2bf355b9-d3df-46c2-b428-a8d025430c97", options);
+    }
+  </script>
+  <script defer src="https://app.deixacommarta.com.br/arquivos/scripts/mtag.min.js" onload="initMTag()"></script>
 </head>
 
 <body>

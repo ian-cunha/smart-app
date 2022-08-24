@@ -36,45 +36,13 @@ import rogerio from "../assets/clientes/rogerio.svg";
 import dimas from "../assets/clientes/dimas.svg";
 import valeria from "../assets/clientes/valeria.svg";
 import migrar from "../assets/migrar.svg";
+import Whatsapp from "./Whatsapp";
 
 function Content() {
   return (
     <div id="home">
 
-      <button type="button" data-bs-toggle="modal" data-bs-target="#whatsappModal" className="wpp-button">
-        <i className="bi bi-whatsapp"></i>
-      </button>
-
-      <div className="modal fade" id="whatsappModal" tabindex="-1" aria-labelledby="whatsappModalLabal" aria-hidden="true">
-        <div className="modal-dialog">
-          <div className="modal-content">
-            <div className="modal-header">
-              <h3 className="modal-title" id="whatsappModalLabal"><i class="bi bi-person-lines-fill"></i> Fale com um consultor</h3>
-              <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div className="modal-body">
-              <form name="formContato" method="post" action="https://app.smart.youdigital.com.br/atendimento/cadastrarContatosOnline">
-                <fieldset>
-                  <div>
-                    <label for="contatoNome" className="form-label text-light">Nome</label>
-                    <input type="text" className="form-control form-control-lg" name="nome_contato" id="contatoNome" required placeholder="Nome" />
-                  </div>
-                  <div>
-                    <label for="contatoEmail" className="form-label text-light">Email</label>
-                    <input type="email" className="form-control form-control-lg" name="email" id="contatoEmail" required placeholder="E-mail" />
-                  </div>
-                  <div>
-                    <label for="contatoTelefone" className="form-label text-light">Whatsapp</label>
-                    <input type="tel" maxlength="11" className="form-control form-control-lg" name="telefone" id="contatoTelefone" required placeholder="Whatsapp" />
-                  </div>
-                  <button type="submit" className="btn btn-submit btn-lg w-100 mt-4">Quero saber mais! <i className="bi bi-arrow-right-circle"></i></button>
-                  <p className="mt-2 fw-light"><i class="bi bi-shield-check"></i> Garantimos a privacidade de seus dados</p>
-                </fieldset>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Whatsapp />
 
       <div className="content text-light">
         <h1 className="fw-bold">Sistema imobiliário completo com site de imóveis</h1>
@@ -132,7 +100,7 @@ function Content() {
             <div className="col mt-2">
               <img src={grid8} alt="Painel de Controle - Dashboard" />
               <h6 className="grid-color mt-2">Painel de Controle - Dashboard</h6>
-              <p>Visualize suas oportunidades de negócios e fases de venda, atenda com agilidade seus clientes, entre outras facilidades</p>
+              <p>Visualize oportunidades de negócios e fases de venda, atenda com agilidade seus clientes, entre outras facilidades</p>
             </div>
             <div className="col v">
               <img src={grid9} alt="Roteiro de Visitas" />
@@ -161,10 +129,10 @@ function Content() {
           </div>
           <div className="d-flex flex-sm-row flex-column justify-content-center">
             <a target="_blank" href="https://apps.apple.com/br/app/smart-imobiliario/id1128234098">
-              <img src={googleplay} alt="Google Play" />
+              <img className="m-1" width='200px' src={googleplay} alt="Google Play" />
             </a>
             <a target="_blank" href="https://play.google.com/store/apps/details?id=br.com.youdigital.smartimobiliario">
-              <img src={apple} alt="Apple Store" />
+              <img className="m-1" width='200px' src={apple} alt="Apple Store" />
             </a>
           </div>
         </div>
