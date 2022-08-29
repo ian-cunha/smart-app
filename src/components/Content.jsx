@@ -143,55 +143,55 @@ function Content() {
         <div className="container text-center pb-5">
           <div className="row p-2">
             <div className="col mt-2">
-              <img width="150px" src={expo} alt="Chave Fácil" />
+              <img className="portais" src={expo} alt="Chave Fácil" />
             </div>
             <div className="col mt-2">
-              <img width="200px" src={mercadolivre} alt="Mercado Livre" />
+              <img className="portais" src={mercadolivre} alt="Mercado Livre" />
             </div>
             <div className="col mt-2">
-              <img width="200px" src={ademi} alt="Ademi" />
+              <img className="portais" src={ademi} alt="Ademi" />
             </div>
             <div className="col mt-2">
-              <img width="100px" src={olx} alt="Olx" />
-            </div>
-          </div>
-          <div className="row p-2">
-            <div className="col mt-2">
-              <img width="200px" src={vivareal} alt="Viva Real" />
-            </div>
-            <div className="col mt-2">
-              <img width="130px" src={casamineira} alt="Casa Mineira" />
-            </div>
-            <div className="col mt-2">
-              <img width="150px" src={chave} alt="Chave Fácil" />
-            </div>
-            <div className="col mt-2">
-              <img width="100px" src={creci} alt="Portal Creci" />
+              <img className="portais" src={olx} alt="Olx" />
             </div>
           </div>
           <div className="row p-2">
             <div className="col mt-2">
-              <img width="150px" src={df} alt="DF Imóveis" />
+              <img className="portais" src={vivareal} alt="Viva Real" />
             </div>
             <div className="col mt-2">
-              <img width="200px" src={dreamcasa} alt="Dream Casa" />
+              <img className="portais" src={casamineira} alt="Casa Mineira" />
             </div>
             <div className="col mt-2">
-              <img width="150px" src={imoWeb} alt="ImoWEB" />
+              <img className="portais" src={chave} alt="Chave Fácil" />
             </div>
             <div className="col mt-2">
-              <img width="180px" src={lugarcerto} alt="Lugar Certo" />
+              <img className="portais" src={creci} alt="Portal Creci" />
             </div>
           </div>
           <div className="row p-2">
             <div className="col mt-2">
-              <img width="200px" src={smartxml} alt="Smart XML" />
+              <img className="portais" src={df} alt="DF Imóveis" />
             </div>
             <div className="col mt-2">
-              <img width="100px" src={zap} alt="Zap Imóveis" />
+              <img className="portais" src={dreamcasa} alt="Dream Casa" />
             </div>
             <div className="col mt-2">
-              <img width="200px" src={moving} alt="Moving" />
+              <img className="portais" src={imoWeb} alt="ImoWEB" />
+            </div>
+            <div className="col mt-2">
+              <img className="portais" src={lugarcerto} alt="Lugar Certo" />
+            </div>
+          </div>
+          <div className="row p-2">
+            <div className="col mt-2">
+              <img className="portais" src={smartxml} alt="Smart XML" />
+            </div>
+            <div className="col mt-2">
+              <img className="portais" src={zap} alt="Zap Imóveis" />
+            </div>
+            <div className="col mt-2">
+              <img className="portais" src={moving} alt="Moving" />
             </div>
           </div>
         </div>

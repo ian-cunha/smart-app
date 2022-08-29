@@ -261,3 +261,8 @@ h6.grid-color {
 .planos {
   overflow: hidden;
 }
+
+.portais {
+  max-width: 150px;
+  padding: 10px;
+}
