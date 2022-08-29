@@ -60,7 +60,7 @@ const Valores = () => {
                         <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Treinamentos das equipes de vendas e gerentes</li>
                         <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Parametrização e configuração da conta</li>
                       </ul>
-                      <a type="button" href="#detalhes-plano" className="btn mb-3">Ver plano detalhado <i class="bi bi-arrow-down-short"></i></a>
+                      <a type="button" href="#detalhes-plano" className="btn mb-3">Ver plano detalhado <i className="bi bi-arrow-down-short"></i></a>
                       <button type="button" className="w-100 btn btn-lg btn-orange" data-bs-toggle="modal" data-bs-target="#autonomo">Saber mais</button>
                       <a className="mt-1 w-100 btn btn-lg btn-blue2  fw-bold" target="_blank" href="https://app.smartimobiliario.com.br/cadastro/planoSmart?indicadorPlano=2" role="button">Assine já! <i className="bi bi-arrow-right-short"></i></a>
                     </div>
@@ -87,7 +87,7 @@ const Valores = () => {
                         <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Treinamentos das equipes de vendas e gerentes</li>
                         <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Parametrização e configuração da conta</li>
                       </ul>
-                      <a type="button" href="#detalhes-plano" className="btn mb-3">Ver plano detalhado <i class="bi bi-arrow-down-short"></i></a>
+                      <a type="button" href="#detalhes-plano" className="btn mb-3">Ver plano detalhado <i className="bi bi-arrow-down-short"></i></a>
                       <button type="button" className="w-100 btn btn-lg btn-orange" data-bs-toggle="modal" data-bs-target="#micro">Saber mais</button>
                       <a className="mt-1 w-100 btn btn-lg btn-blue2 fw-bold" target="_blank" href="https://app.smartimobiliario.com.br/cadastro/planoSmart?indicadorPlano=3" role="button">Assine já! <i className="bi bi-arrow-right-short"></i></a>
                     </div>
@@ -114,7 +114,7 @@ const Valores = () => {
                         <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Treinamentos das equipes de vendas e gerentes</li>
                         <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Parametrização e configuração da conta</li>
                       </ul>
-                      <a type="button" href="#detalhes-plano" className="btn mb-3">Ver plano detalhado <i class="bi bi-arrow-down-short"></i></a>
+                      <a type="button" href="#detalhes-plano" className="btn mb-3">Ver plano detalhado <i className="bi bi-arrow-down-short"></i></a>
                       <button type="button" className="w-100 btn btn-lg btn-orange" data-bs-toggle="modal" data-bs-target="#pequeno">Saber mais</button>
                       <a className="mt-1 w-100 btn btn-lg btn-blue2 fw-bold" target="_blank" href="https://app.smartimobiliario.com.br/cadastro/planoSmart?indicadorPlano=5" role="button">Assine já! <i className="bi bi-arrow-right-short"></i></a>
                     </div>
@@ -148,7 +148,7 @@ const Valores = () => {
                         <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Treinamentos das equipes de vendas e gerentes</li>
                         <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Parametrização e configuração da conta</li>
                       </ul>
-                      <a type="button" href="#detalhes-plano" className="btn mb-3">Ver plano detalhado <i class="bi bi-arrow-down-short"></i></a>
+                      <a type="button" href="#detalhes-plano" className="btn mb-3">Ver plano detalhado <i className="bi bi-arrow-down-short"></i></a>
                       <button type="button" className="w-100 btn btn-lg btn-orange" data-bs-toggle="modal" data-bs-target="#medio">Saber mais</button>
                       <a className="mt-1 w-100 btn btn-lg btn-blue2 fw-bold" target="_blank" href="https://app.smartimobiliario.com.br/cadastro/planoSmart?indicadorPlano=10" role="button">Assine já! <i className="bi bi-arrow-right-short"></i></a>
                     </div>
@@ -175,7 +175,7 @@ const Valores = () => {
                         <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Treinamentos das equipes de vendas e gerentes</li>
                         <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Parametrização e configuração da conta</li>
                       </ul>
-                      <a type="button" href="#detalhes-plano" className="btn mb-3">Ver plano detalhado <i class="bi bi-arrow-down-short"></i></a>
+                      <a type="button" href="#detalhes-plano" className="btn mb-3">Ver plano detalhado <i className="bi bi-arrow-down-short"></i></a>
                       <button type="button" className="w-100 btn btn-lg btn-orange" data-bs-toggle="modal" data-bs-target="#grande">Saber mais</button>
                       <a className="mt-1 w-100 btn btn-lg btn-blue2 fw-bold" target="_blank" href="https://app.smartimobiliario.com.br/cadastro/planoSmart?indicadorPlano=20" role="button">Assine já! <i className="bi bi-arrow-right-short"></i></a>
                     </div>
@@ -196,7 +196,7 @@ const Valores = () => {
                         <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Cadastro de Clientes</li>
                         <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Site Personalizado</li>
                       </ul>
-                      <a type="button" href="#detalhes-plano" className="btn mb-3">Ver plano detalhado <i class="bi bi-arrow-down-short"></i></a>
+                      <a type="button" href="#detalhes-plano" className="btn mb-3">Ver plano detalhado <i className="bi bi-arrow-down-short"></i></a>
                       <button type="button" className="w-100 btn btn-lg btn-orange" data-bs-toggle="modal" data-bs-target="#gratuito">Saber mais</button>
                       <a className="mt-1 w-100 btn btn-lg btn-blue2 fw-bold" target="_blank" href="https://app.smartimobiliario.com.br/SmartImobiliario-Corretor" role="button">Assine já! <i className="bi bi-arrow-right-short"></i></a>
                     </div>
