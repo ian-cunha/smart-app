@@ -6,14 +6,14 @@ const Valores = () => {
   const [micro, setMicro] = useState('R$149');
   const [pequeno, setPequeno] = useState('R$249');
   const [medio, setMedio] = useState('R$349');
-  const [grande, setGrande] = useState('R$499');
+  const [grande, setGrande] = useState('R$449');
 
   function Mensal() {
     setAutonomo('R$99');
     setMicro('R$149');
     setPequeno('R$249');
     setMedio('R$349');
-    setGrande('R$499');
+    setGrande('R$449');
   }
 
   function Anual() {
