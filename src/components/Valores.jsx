@@ -56,7 +56,6 @@ const Valores = () => {
                         <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Site Premium</li>
                         <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> CRM Completo</li>
                         <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Atendimento por whatsapp</li>
-                        <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Implantação de 05 empreendimento(s) e unidades</li>
                         <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Treinamentos das equipes de vendas e gerentes</li>
                         <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Parametrização e configuração da conta</li>
                       </ul>
@@ -83,7 +82,6 @@ const Valores = () => {
                         <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Site Premium</li>
                         <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> CRM Completo</li>
                         <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Atendimento por whatsapp</li>
-                        <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Implantação de 05 empreendimento(s) e unidades</li>
                         <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Treinamentos das equipes de vendas e gerentes</li>
                         <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Parametrização e configuração da conta</li>
                       </ul>
@@ -110,7 +108,6 @@ const Valores = () => {
                         <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Site Premium</li>
                         <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> CRM Completo</li>
                         <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Atendimento por whatsapp</li>
-                        <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Implantação de 05 empreendimento(s) e unidades</li>
                         <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Treinamentos das equipes de vendas e gerentes</li>
                         <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Parametrização e configuração da conta</li>
                       </ul>
@@ -144,7 +141,6 @@ const Valores = () => {
                         <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Site Premium</li>
                         <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> CRM Completo</li>
                         <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Atendimento por whatsapp</li>
-                        <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Implantação de 05 empreendimento(s) e unidades</li>
                         <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Treinamentos das equipes de vendas e gerentes</li>
                         <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Parametrização e configuração da conta</li>
                       </ul>
@@ -171,7 +167,6 @@ const Valores = () => {
                         <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Site Premium</li>
                         <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> CRM Completo</li>
                         <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Atendimento por whatsapp</li>
-                        <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Implantação de 05 empreendimento(s) e unidades</li>
                         <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Treinamentos das equipes de vendas e gerentes</li>
                         <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Parametrização e configuração da conta</li>
                       </ul>
@@ -235,7 +230,6 @@ const Valores = () => {
               <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Site Premium</li>
               <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> CRM Completo</li>
               <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Atendimento por whatsapp</li>
-              <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Implantação de 05 empreendimento(s) e unidades</li>
               <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Treinamentos das equipes de vendas e gerentes</li>
               <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Parametrização e configuração da conta</li>
             </ul>
@@ -260,7 +254,6 @@ const Valores = () => {
               <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Site Premium</li>
               <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> CRM Completo</li>
               <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Atendimento por whatsapp</li>
-              <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Implantação de 05 empreendimento(s) e unidades</li>
               <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Treinamentos das equipes de vendas e gerentes</li>
               <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Parametrização e configuração da conta</li>
             </ul>
@@ -285,7 +278,6 @@ const Valores = () => {
               <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Site Premium</li>
               <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> CRM Completo</li>
               <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Atendimento por whatsapp</li>
-              <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Implantação de 05 empreendimento(s) e unidades</li>
               <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Treinamentos das equipes de vendas e gerentes</li>
               <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Parametrização e configuração da conta</li>
             </ul>
@@ -311,7 +303,6 @@ const Valores = () => {
               <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Site Premium</li>
               <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> CRM Completo</li>
               <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Atendimento por whatsapp</li>
-              <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Implantação de 05 empreendimento(s) e unidades</li>
               <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Treinamentos das equipes de vendas e gerentes</li>
               <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Parametrização e configuração da conta</li>
             </ul>
@@ -336,7 +327,6 @@ const Valores = () => {
               <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Site Premium</li>
               <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> CRM Completo</li>
               <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Atendimento por whatsapp</li>
-              <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Implantação de 05 empreendimento(s) e unidades</li>
               <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Treinamentos das equipes de vendas e gerentes</li>
               <li className="pb-1 size-list"><i className="bi bi-check text-primary"></i> Parametrização e configuração da conta</li>
             </ul>

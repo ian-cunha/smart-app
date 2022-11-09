@@ -117,15 +117,6 @@ function Gratuito() {
                     <td><i className="bi bi-check2 text-primary"></i></td>
                   </tr>
                   <tr>
-                    <th scope="row" className="text-start">Acesso a Rede de Parceiros</th>
-                    <td><i className="bi bi-x text-danger"></i></td>
-                    <td><i className="bi bi-check2 text-primary"></i></td>
-                    <td><i className="bi bi-check2 text-primary"></i></td>
-                    <td><i className="bi bi-check2 text-primary"></i></td>
-                    <td><i className="bi bi-check2 text-primary"></i></td>
-                    <td><i className="bi bi-check2 text-primary"></i></td>
-                  </tr>
-                  <tr>
                     <th scope="row" className="text-start">Integração com Portais Imobiliários</th>
                     <td><i className="bi bi-x text-danger"></i></td>
                     <td><i className="bi bi-check2 text-primary"></i></td>
@@ -198,16 +189,7 @@ function Gratuito() {
                     <td><i className="bi bi-check2 text-primary"></i></td>
                   </tr>
                   <tr>
-                    <th scope="row" className="text-start p-2 fs-6 fw-normal">Parametrização e configuração da conta</th>
-                    <td><i className="bi bi-x text-danger"></i></td>
-                    <td><i className="bi bi-check2 text-primary"></i></td>
-                    <td><i className="bi bi-check2 text-primary"></i></td>
-                    <td><i className="bi bi-check2 text-primary"></i></td>
-                    <td><i className="bi bi-check2 text-primary"></i></td>
-                    <td><i className="bi bi-check2 text-primary"></i></td>
-                  </tr>
-                  <tr>
-                    <th scope="row" className="text-start">Implantação de 05 empreendimento(s) e unidades</th>
+                    <th scope="row" className="text-start">Parametrização e configuração da conta</th>
                     <td><i className="bi bi-x text-danger"></i></td>
                     <td><i className="bi bi-check2 text-primary"></i></td>
                     <td><i className="bi bi-check2 text-primary"></i></td>
