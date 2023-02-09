@@ -4,7 +4,7 @@ Produção:
 https://www.smartimobiliario.com.br
 
 Área de desenvolvimento:
-smart-app-seven.vercel.app
+https://smart-app-seven.vercel.app/
 
 Ferramentas:
 
