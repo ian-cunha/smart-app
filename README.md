@@ -24,4 +24,4 @@ Esse projeto está sob a licença (Marta Inteligência Imobiliária) - acesse os
 
 * Grato por ter alcançado o sucesso na construção, agradeço a todos que contribuíram para tornar esse projeto uma realidade incrível!
 * Para suporte, mande um email para iancunha20@gmail.com.
-* Link para o seu linkedin [iancunha](https://www.linkedin.com/in/iancunha/)
+* Link para o seu linkedin [Meu linkedin](https://www.linkedin.com/in/iancunha/)
