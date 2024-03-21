@@ -6,6 +6,7 @@ function Whatsapp() {
   const [nome_contato, setNome] = useState("")
   const [email, setEmail] = useState("")
   const [telefone, setTelefone] = useState("")
+  let number = '5581994327030'
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -28,7 +29,7 @@ function Whatsapp() {
       }
     })
       .then(function (response) {
-        window.location = "https://api.whatsapp.com/send/?phone=5581999532329&text=Ol%C3%A1%2C+visitei+o+site+e+tenho+interesse+de+conhecer+o+Smart+Imobili%C3%A1rio%21&type=phone_number&app_absent=0"
+        window.location = `https://api.whatsapp.com/send/?phone=${number}&text=Ol%C3%A1%2C+visitei+o+site+e+tenho+interesse+de+conhecer+o+Smart+Imobili%C3%A1rio%21&type=phone_number&app_absent=0`
         console.log(response.data);
         console.log("Nome:", nome_contato, "/", "Email:", email, "Telefone:", telefone, "=", "Contato Enviado com sucesso!")
       });
