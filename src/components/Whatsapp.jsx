@@ -6,7 +6,7 @@ function Whatsapp() {
   const [nome_contato, setNome] = useState("")
   const [email, setEmail] = useState("")
   const [telefone, setTelefone] = useState("")
-  let number = '5581994327030'
+  let number = '5581973382868'
 
   const handleSubmit = (e) => {
     e.preventDefault();
