@@ -247,6 +247,11 @@ h6.grid-color {
   text-align: justify;
 }
 
+.card-text {
+  text-align: justify;
+  font-size: 0.9em;
+}
+
 .migracao {
   max-width: 80%;
 }
