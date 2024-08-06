@@ -61,66 +61,66 @@ function Content() {
         <div className="container text-center">
           <div className="row p-2">
             <div className="col mt-2">
-              <img src={grid1} alt="Anúncio em Portais" />
+              <img src={grid1} className="img-grid" alt="Anúncio em Portais" />
               <h6 className="grid-color mt-2">Anúncio em Portais</h6>
-              <p>Integre automaticamente seus imóveis com portais imobiliários.</p>
+              <p className="grid-p">Integre automaticamente seus imóveis com portais imobiliários.</p>
             </div>
             <div className="col mt-2">
-              <img src={grid2} alt="Site de Imóveis" />
+              <img src={grid2} className="img-grid" alt="Site de Imóveis" />
               <h6 className="grid-color mt-2">Site de Imóveis</h6>
-              <p>Divulgue seus imóveis em seu próprio site.</p>
+              <p className="grid-p">Divulgue seus imóveis em seu próprio site.</p>
             </div>
             <div className="col mt-2">
-              <img src={grid3} alt="Funil de vendas" />
+              <img src={grid3} className="img-grid" alt="Funil de vendas" />
               <h6 className="grid-color mt-2">Funil de vendas</h6>
-              <p>Controle a jornada de venda do seu imóvel, em tempo real.</p>
+              <p className="grid-p">Controle a jornada de venda do seu imóvel, em tempo real.</p>
             </div>
             <div className="col mt-2">
-              <img src={grid4} alt="Atendimento a Clientes" />
+              <img src={grid4} className="img-grid" alt="Atendimento a Clientes" />
               <h6 className="grid-color mt-2">Atendimento a Clientes</h6>
-              <p>Contato direto com o cliente via WhatsApp, através do número cadastrado no sistema.</p>
+              <p className="grid-p">Contato direto com o cliente via WhatsApp, através do número cadastrado no sistema.</p>
             </div>
             <div className="col mt-2">
-              <img src={grid5} alt="Gestão de Imóveis" />
+              <img src={grid5} className="img-grid" alt="Gestão de Imóveis" />
               <h6 className="grid-color mt-2">Gestão de Imóveis</h6>
-              <p>Tenha cadastros ilimitados e acesso a todos os seus imóveis em uma única plataforma.</p>
+              <p className="grid-p">Tenha cadastros ilimitados e acesso a todos os seus imóveis em uma única plataforma.</p>
             </div>
             <div className="col mt-2">
-              <img src={grid6} alt="Realize Parcerias" />
+              <img src={grid6} className="img-grid" alt="Realize Parcerias" />
               <h6 className="grid-color mt-2">Anúncio em Portais</h6>
-              <p>Amplie sua rede de negócios online, encontrando parceiros da sua região.</p>
+              <p className="grid-p">Amplie sua rede de negócios online, encontrando parceiros da sua região.</p>
             </div>
           </div>
           <div className="row p-2">
             <div className="col mt-2">
-              <img src={grid7} alt="Detetive Imobiliário" />
+              <img src={grid7} className="img-grid" alt="Detetive Imobiliário" />
               <h6 className="grid-color mt-2">Detetive Imobiliário</h6>
-              <p>Encontre o match ideal entre clientes interessados e suas captações de imóveis.</p>
+              <p className="grid-p">Encontre o match ideal entre clientes interessados e suas captações de imóveis.</p>
             </div>
             <div className="col mt-2">
-              <img src={grid8} alt="Painel de Controle - Dashboard" />
-              <h6 className="grid-color mt-2">Painel de Controle - Dashboard</h6>
-              <p>Visualize oportunidades de negócios e fases de venda, atenda com agilidade seus clientes, entre outras facilidades</p>
+              <img src={grid8} className="img-grid" alt="Painel de Controle" />
+              <h6 className="grid-color mt-2">Painel de Controle</h6>
+              <p className="grid-p">Visualize oportunidades de negócios e fases de venda, atenda com agilidade seus clientes, entre outras facilidades</p>
             </div>
             <div className="col v">
-              <img src={grid9} alt="Roteiro de Visitas" />
+              <img src={grid9} className="img-grid" alt="Roteiro de Visitas" />
               <h6 className="grid-color mt-2">Roteiro de Visitas</h6>
-              <p>Acompanhe como foram as visitas aos imóveis e o feedback dos clientes.</p>
+              <p className="grid-p">Acompanhe como foram as visitas aos imóveis e o feedback dos clientes.</p>
             </div>
             <div className="col mt-2">
-              <img src={grid10} alt="Feedback ao Proprietário" />
+              <img src={grid10} className="img-grid" alt="Feedback ao Proprietário" />
               <h6 className="grid-color mt-2">Feedback ao Proprietário</h6>
-              <p>Relacionamento com os proprietários através de informações completas e automáticas do processo de venda.</p>
+              <p className="grid-p">Relacionamento com os proprietários através de informações completas e automáticas do processo de venda.</p>
             </div>
             <div className="col mt-2">
-              <img src={grid11} alt="Compartilha Imóveis" />
+              <img src={grid11} className="img-grid" alt="Compartilha Imóveis" />
               <h6 className="grid-color mt-2">Compartilha Imóveis</h6>
-              <p>Compartilhe imóveis compatíveis com interesse de seu cliente via whatsapp e email.</p>
+              <p className="grid-p">Compartilhe imóveis compatíveis com interesse de seu cliente via whatsapp e email.</p>
             </div>
           </div>
         </div>
       </div>
-      <div id="aplicativo">
+      <div className="container" id="aplicativo">
         <h2 className="mt-5 fs-1 color-1 p-2">Aplicativo para Corretores e Imobiliárias</h2>
         <h4 className="mt-2 mb-5 fs-5 p-2 fw-normal">Baixe o aplicativo SMART e tenha todas as informações dos seus imóveis.</h4>
         <div className="container">
@@ -261,7 +261,7 @@ function Content() {
         </div>
       </div>
 
-      <div id="migracao" className="pb-5 pt-5 mb-5">
+      <div id="migracao" className="pb-5 pt-5 mb-5 container">
         <h2 className="mt-5 fs-1 color-3 p-2">Faz parte de outro sistema e quer migrar para o Smart?</h2>
         <h4 className="mt-2 mb-5 fs-5 fw-normal p-2">Mude agora mesmo com o nosso assistente de importação de forma rápida.</h4>
         <div className="container">

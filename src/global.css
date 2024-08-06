@@ -218,12 +218,25 @@ h6.grid-color {
 }
 
 .card {
-  margin: 24px;
+  margin: 5px;
   width: 40rem;
   max-width: 100%;
 }
 
+.grid-p {
+  text-align: justify;
+  font-size: 0.8em;
+}
+
+.img-grid {
+  width: 70px;
+}
+
 @media (max-width: 600px) {
+  .img-grid {
+    width: auto;
+  }
+
   .card {
     margin: 0;
     margin-bottom: 24px;

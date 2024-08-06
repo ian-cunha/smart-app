@@ -8,7 +8,7 @@ function Footer() {
           <img width="150px" className="center mt-2 mb-2" src={logo} alt="Art by Marta" />
         </div>
         <div>
-          <h5 className="text-center container fs-6 mt-2 mb-2">@ 2022 Marta Inteligência Imobiliária - Av. Barbosa Lima, 149 - Sala 416 - Recife, PE, 50030-330 </h5>
+          <h5 className="text-center container fs-6 mt-2 mb-2">@ 2024 Marta Inteligência Imobiliária - Av. Barbosa Lima, 149 - Sala 416 - Recife, PE, 50030-330 </h5>
         </div>
         <div>
           <a className="redes" target="_blank" href="https://www.instagram.com/smart.imobiliario/"><i className="bi bi-instagram m-2 fs-1"></i></a>
