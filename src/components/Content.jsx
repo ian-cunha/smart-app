@@ -45,8 +45,8 @@ function Content() {
       <Whatsapp />
 
       <div className="content text-light">
-        <h1 className="fw-bold">Sistema imobiliário completo com site de imóveis</h1>
-        <h2 className="fw-normal fs-5">Criado para ajudar você a priorizar negócios, acompanhar seu desempenho e não perder oportunidades.</h2>
+        <h1 className="fw-light">Sistema imobiliário completo com site de imóveis</h1>
+        <h2 className="fw-normal fs-6">Criado para ajudar você a priorizar negócios, acompanhar seu desempenho e não perder oportunidades.</h2>
         <h3>AUMENTE JÁ SUAS VENDAS <i className="bi bi-graph-up-arrow"></i></h3>
         <div className="d-flex justify-content-center align-items-center flex-sm-row flex-column">
           <button type="button" className="btn btn-whatsapp m-2 p-2" data-bs-toggle="modal" data-bs-target="#whatsappModal">
@@ -55,74 +55,99 @@ function Content() {
           <a type="button" href="/Gratuito" className="btn btn-gratuito m-2 p-2">Plano Gratuito <i className="bi bi-arrow-right"></i></a>
         </div>
       </div>
-      <div id="software">
-        <h2 className="mt-5 fs-1 color-1 p-2">Gestão inteligente de seus negócios</h2>
-        <h4 className="mt-2 mb-5 fs-5 fw-normal p-2">Acesse seus imóveis e publique em portais em uma única plataforma.</h4>
-        <div className="container text-center">
-          <div className="row p-2">
-            <div className="col mt-2">
-              <img src={grid1} className="img-grid" alt="Anúncio em Portais" />
-              <h6 className="grid-color mt-2">Anúncio em Portais</h6>
-              <p className="grid-p">Integre automaticamente seus imóveis com portais imobiliários.</p>
-            </div>
-            <div className="col mt-2">
-              <img src={grid2} className="img-grid" alt="Site de Imóveis" />
-              <h6 className="grid-color mt-2">Site de Imóveis</h6>
-              <p className="grid-p">Divulgue seus imóveis em seu próprio site.</p>
-            </div>
-            <div className="col mt-2">
-              <img src={grid3} className="img-grid" alt="Funil de vendas" />
-              <h6 className="grid-color mt-2">Funil de vendas</h6>
-              <p className="grid-p">Controle a jornada de venda do seu imóvel, em tempo real.</p>
-            </div>
-            <div className="col mt-2">
-              <img src={grid4} className="img-grid" alt="Atendimento a Clientes" />
-              <h6 className="grid-color mt-2">Atendimento a Clientes</h6>
-              <p className="grid-p">Contato direto com o cliente via WhatsApp, através do número cadastrado no sistema.</p>
-            </div>
-            <div className="col mt-2">
-              <img src={grid5} className="img-grid" alt="Gestão de Imóveis" />
-              <h6 className="grid-color mt-2">Gestão de Imóveis</h6>
-              <p className="grid-p">Tenha cadastros ilimitados e acesso a todos os seus imóveis em uma única plataforma.</p>
-            </div>
-            <div className="col mt-2">
-              <img src={grid6} className="img-grid" alt="Realize Parcerias" />
-              <h6 className="grid-color mt-2">Anúncio em Portais</h6>
-              <p className="grid-p">Amplie sua rede de negócios online, encontrando parceiros da sua região.</p>
-            </div>
-          </div>
-          <div className="row p-2">
-            <div className="col mt-2">
-              <img src={grid7} className="img-grid" alt="Detetive Imobiliário" />
-              <h6 className="grid-color mt-2">Detetive Imobiliário</h6>
-              <p className="grid-p">Encontre o match ideal entre clientes interessados e suas captações de imóveis.</p>
-            </div>
-            <div className="col mt-2">
-              <img src={grid8} className="img-grid" alt="Painel de Controle" />
-              <h6 className="grid-color mt-2">Painel de Controle</h6>
-              <p className="grid-p">Visualize oportunidades de negócios e fases de venda, atenda com agilidade seus clientes, entre outras facilidades</p>
-            </div>
-            <div className="col v">
-              <img src={grid9} className="img-grid" alt="Roteiro de Visitas" />
-              <h6 className="grid-color mt-2">Roteiro de Visitas</h6>
-              <p className="grid-p">Acompanhe como foram as visitas aos imóveis e o feedback dos clientes.</p>
-            </div>
-            <div className="col mt-2">
-              <img src={grid10} className="img-grid" alt="Feedback ao Proprietário" />
-              <h6 className="grid-color mt-2">Feedback ao Proprietário</h6>
-              <p className="grid-p">Relacionamento com os proprietários através de informações completas e automáticas do processo de venda.</p>
-            </div>
-            <div className="col mt-2">
-              <img src={grid11} className="img-grid" alt="Compartilha Imóveis" />
-              <h6 className="grid-color mt-2">Compartilha Imóveis</h6>
-              <p className="grid-p">Compartilhe imóveis compatíveis com interesse de seu cliente via whatsapp e email.</p>
-            </div>
+      <section id="software" className="software-section">
+        <div className="text-center p-4">
+          <h2 className="mt-5 fs-1 color-1 p-2">Gestão inteligente de seus negócios</h2>
+          <h4 className="mt-2 mb-5 fs-5 fw-normal p-2">
+            Acesse seus imóveis e publique em portais em uma única plataforma.
+          </h4>
+        </div>
+
+        <div className="container">
+          <div className="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-3">
+            {[
+              {
+                src: grid1,
+                alt: "Anúncio em Portais",
+                title: "Anúncio em Portais",
+                description: "Integre automaticamente seus imóveis com portais imobiliários."
+              },
+              {
+                src: grid2,
+                alt: "Site de Imóveis",
+                title: "Site de Imóveis",
+                description: "Divulgue seus imóveis em seu próprio site."
+              },
+              {
+                src: grid3,
+                alt: "Funil de Vendas",
+                title: "Funil de Vendas",
+                description: "Controle a jornada de venda do seu imóvel, em tempo real."
+              },
+              {
+                src: grid4,
+                alt: "Atendimento a Clientes",
+                title: "Atendimento a Clientes",
+                description: "Contato direto com o cliente via WhatsApp, através do número cadastrado no sistema."
+              },
+              {
+                src: grid5,
+                alt: "Gestão de Imóveis",
+                title: "Gestão de Imóveis",
+                description: "Tenha cadastros ilimitados e acesso a todos os seus imóveis em uma única plataforma."
+              },
+              {
+                src: grid6,
+                alt: "Realize Parcerias",
+                title: "Realize Parcerias",
+                description: "Amplie sua rede de negócios online, encontrando parceiros da sua região."
+              },
+              {
+                src: grid7,
+                alt: "Detetive Imobiliário",
+                title: "Detetive Imobiliário",
+                description: "Encontre o match ideal entre clientes interessados e suas captações de imóveis."
+              },
+              {
+                src: grid8,
+                alt: "Painel de Controle",
+                title: "Painel de Controle",
+                description: "Visualize oportunidades de negócios e fases de venda, atenda com agilidade seus clientes, entre outras facilidades."
+              },
+              {
+                src: grid9,
+                alt: "Roteiro de Visitas",
+                title: "Roteiro de Visitas",
+                description: "Acompanhe como foram as visitas aos imóveis e o feedback dos clientes."
+              },
+              {
+                src: grid10,
+                alt: "Feedback ao Proprietário",
+                title: "Feedback ao Proprietário",
+                description: "Relacionamento com os proprietários através de informações completas e automáticas do processo de venda."
+              },
+              {
+                src: grid11,
+                alt: "Compartilha Imóveis",
+                title: "Compartilha Imóveis",
+                description: "Compartilhe imóveis compatíveis com interesse de seu cliente via WhatsApp e email."
+              }
+            ].map((item, index) => (
+              <div key={index} className="col">
+                <article className="text-center">
+                  <img src={item.src} className="img-fluid img-grid mb-2" alt={item.alt} />
+                  <h6 className="grid-color mt-2 fs-6">{item.title}</h6>
+                  <p className="grid-p fs-7">{item.description}</p>
+                </article>
+              </div>
+            ))}
           </div>
         </div>
-      </div>
+      </section>
+
       <div className="container" id="aplicativo">
         <h2 className="mt-5 fs-1 color-1 p-2">Aplicativo para Corretores e Imobiliárias</h2>
-        <h4 className="mt-2 mb-5 fs-5 p-2 fw-normal">Baixe o aplicativo SMART e tenha todas as informações dos seus imóveis.</h4>
+        <h4 className="mt-2 mb-5 fs-5 p-2 fw-normal">Baixe o aplicativo RE.AI.s e tenha todas as informações dos seus imóveis.</h4>
         <div className="container">
           <div className="row m-5 text-center">
             <img src={smartphone} alt="Smartphone" />
@@ -137,137 +162,144 @@ function Content() {
           </div>
         </div>
       </div>
-      <div className="bg-2" id="integracao">
-        <h2 className="mt-5 pt-5 fs-1 text-light p-2">Integração com os principais portais</h2>
-        <h4 className="mt-2 mb-5 fs-5 text-light fw-normal p-2">Anuncie seus imóveis e aumente a visibilidade de seu negócio!</h4>
-        <div className="container text-center pb-5">
-          <div className="row p-2">
-            <div className="col mt-2">
-              <img className="portais" src={expo} alt="Chave Fácil" />
-            </div>
-            <div className="col mt-2">
-              <img className="portais" src={mercadolivre} alt="Mercado Livre" />
-            </div>
-            <div className="col mt-2">
-              <img className="portais" src={ademi} alt="Ademi" />
-            </div>
-            <div className="col mt-2">
-              <img className="portais" src={olx} alt="Olx" />
-            </div>
-          </div>
-          <div className="row p-2">
-            <div className="col mt-2">
-              <img className="portais" src={vivareal} alt="Viva Real" />
-            </div>
-            <div className="col mt-2">
-              <img className="portais" src={casamineira} alt="Casa Mineira" />
-            </div>
-            <div className="col mt-2">
-              <img className="portais" src={chave} alt="Chave Fácil" />
-            </div>
-            <div className="col mt-2">
-              <img className="portais" src={creci} alt="Portal Creci" />
-            </div>
-          </div>
-          <div className="row p-2">
-            <div className="col mt-2">
-              <img className="portais" src={df} alt="DF Imóveis" />
-            </div>
-            <div className="col mt-2">
-              <img className="portais" src={dreamcasa} alt="Dream Casa" />
-            </div>
-            <div className="col mt-2">
-              <img className="portais" src={imoWeb} alt="ImoWEB" />
-            </div>
-            <div className="col mt-2">
-              <img className="portais" src={lugarcerto} alt="Lugar Certo" />
-            </div>
-          </div>
-          <div className="row p-2">
-            <div className="col mt-2">
-              <img className="portais" src={smartxml} alt="Smart XML" />
-            </div>
-            <div className="col mt-2">
-              <img className="portais" src={zap} alt="Zap Imóveis" />
-            </div>
-            <div className="col mt-2">
-              <img className="portais" src={moving} alt="Moving" />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="sites" className="bg-1 pb-5 pt-5">
-        <div className="container d-flex justify-content-around align-items-center flex-sm-row flex-column">
-          <div className="d-flex flex-column text-light text-start">
-            <div>
-              <h2 className="pt-5 text-bold fs-1 p-2">Site Gratuitos e Premium</h2>
-              <h4 className="mt-2 mb-5 fs-3 text-light fw-normal p-2">Crie sua página com Layouts modernos e otimizados para gerar mais leads.</h4>
-            </div>
-            <div className="d-flex justify-content-center align-items-center">
-              <img className="m-2" src={tempo} alt="Tempo" />
-              <h5 className="m-4 fw-normal">Crie seu site profissional em menos de 5 minutos e comece a divulgá-lo na internet.</h5>
-            </div>
-            <div className="d-flex justify-content-center align-items-center">
-              <img className="m-2" src={busca} alt="Busca" />
-              <h5 className="m-4 fw-normal">Sua página otimizada para aparecer nos primeiros resultados do Google.</h5>
-            </div>
-            <div className="d-flex justify-content-center align-items-center">
-              <img className="m-2" src={cel} alt="Smartphone" />
-              <h5 className="m-4 fw-normal">Seu site responsivo e adaptado para todos os dispositivos (Smartphone, Computador e Tablet).</h5>
-            </div>
-          </div>
-          <div className="site-img">
-            <img src={site} alt="Site" />
-          </div>
-          <div>
-          </div>
-        </div>
-      </div>
-      <div id="clientes" className="clientes">
-        <h2 className="mt-5 fs-1 color-1 p-2">O que nossos clientes dizem <i className="bi bi-arrow-down-left"></i></h2>
-        <div className="container d-flex justify-content-center flex-sm-row flex-column">
-          <div className="card">
-            <img src={dimas} className="card-img-top p-5" alt="Dimas" />
-            <div className="card-body">
-              <h5 className="card-title fs-3">Dimas</h5>
-              <h6 className="card-title fw-semibold">Diretor da Acelera Imobiliária</h6>
-              <p className="card-text">Com o Smart tento uma plataforma moderna para gerenciar meus anúncios em vários portais, enviar material para cliente  e fazer acompanhamento, além de poder acessá-lo 24hs! Tudo na palma da mão!</p>
-            </div>
-          </div>
-          <div className="card">
-            <img src={valeria} className="card-img-top p-5" alt="Valéria" />
-            <div className="card-body">
-              <h5 className="card-title fs-3">Valéria</h5>
-              <h6 className="card-title fw-semibold">Dimas Cruz e Valéria Lucena</h6>
-              <p className="card-text">O Smart me proporciona atender meus clientes com velocidade, praticidade e profissionalismo! Consigo oferecer o mesmo atendimento dado por grandes imobiliárias! Tô muito satisfeita!</p>
-            </div>
-          </div>
-          <div className="card">
-            <img src={rogerio} className="card-img-top p-5" alt="Rogério" />
-            <div className="card-body">
-              <h5 className="card-title fs-3">Rogério</h5>
-              <h6 className="card-title fw-semibold">Rio Lar imóveis</h6>
-              <p className="card-text">Minha experiência com a Smart Imobiliário foi simplesmente fora do comum. qualidade e competência estas duas palavras traduzem o atendimento que a Smart emprega nos serviços que realiza, os quais faço questão de destacar.</p>
-            </div>
-          </div>
-          <div className="card">
-            <img src={conlar} className="card-img-top p-5" alt="Conlar" />
-            <div className="card-body">
-              <h5 className="card-title fs-3">Iris Anjo</h5>
-              <h6 className="card-title fw-semibold">Conlar empreendimentos</h6>
-              <p className="card-text">Estamos muito satisfeitos com o serviço da Smart Empreendimentos! Desde já, manifestamos aqui o nosso contentamento com a agilidade do sistema e profissionalismo da equipe. Esperamos continuar esta parceria, facilitando  nossa relação com nossos clientes. Parabéns!</p>
-            </div>
-          </div>
-        </div>
-      </div>
 
-      <div id="migracao" className="pb-5 pt-5 mb-5 container">
-        <h2 className="mt-5 fs-1 color-3 p-2">Faz parte de outro sistema e quer migrar para o Smart?</h2>
-        <h4 className="mt-2 mb-5 fs-5 fw-normal p-2">Mude agora mesmo com o nosso assistente de importação de forma rápida.</h4>
-        <div className="container">
-          <img src={migrar} className="migracao" alt="Migracao" />
+      <section className="bg-2 text-center text-light" id="integracao">
+        <div className="py-5">
+          <h2 className="fs-1 p-2">Integração com os principais portais</h2>
+          <h4 className="fs-5 fw-normal p-2">
+            Anuncie seus imóveis e aumente a visibilidade de seu negócio!
+          </h4>
         </div>
-      </div>
+
+        <div className="container pb-5">
+          <div className="row row-cols-2 row-cols-sm-3 row-cols-md-4 g-4">
+            {[
+              { src: expo, alt: "Chave Fácil" },
+              { src: mercadolivre, alt: "Mercado Livre" },
+              { src: ademi, alt: "Ademi" },
+              { src: olx, alt: "OLX" },
+              { src: vivareal, alt: "Viva Real" },
+              { src: casamineira, alt: "Casa Mineira" },
+              { src: chave, alt: "Chave Fácil" },
+              { src: creci, alt: "Portal CRECI" },
+              { src: df, alt: "DF Imóveis" },
+              { src: dreamcasa, alt: "Dream Casa" },
+              { src: imoWeb, alt: "ImoWEB" },
+              { src: lugarcerto, alt: "Lugar Certo" },
+              { src: smartxml, alt: "Smart XML" },
+              { src: zap, alt: "Zap Imóveis" },
+              { src: moving, alt: "Moving" }
+            ].map((portal, index) => (
+              <div key={index} className="col">
+                <img
+                  className="portais img-fluid"
+                  src={portal.src}
+                  alt={portal.alt}
+                  title={portal.alt}
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section id="sites" className="bg-1 py-5">
+        <div className="container d-flex flex-column-reverse flex-lg-row justify-content-between align-items-center">
+          <div className="text-light text-start">
+            <h2 className="fs-1 p-2">Sites Gratuitos e Premium</h2>
+            <h4 className="fs-4 fw-normal mb-4 p-2">
+              Crie sua página com layouts modernos e otimizados para gerar mais leads.
+            </h4>
+            <div className="d-flex align-items-start mb-3">
+              <img className="me-3" src={tempo} alt="Tempo" />
+              <p className="fs-5">
+                Crie seu site profissional em menos de 5 minutos e comece a divulgá-lo na internet.
+              </p>
+            </div>
+            <div className="d-flex align-items-start mb-3">
+              <img className="me-3" src={busca} alt="Busca" />
+              <p className="fs-5">
+                Sua página otimizada para aparecer nos primeiros resultados do Google.
+              </p>
+            </div>
+            <div className="d-flex align-items-start">
+              <img className="me-3" src={cel} alt="Smartphone" />
+              <p className="fs-5">
+                Seu site responsivo e adaptado para todos os dispositivos (smartphones, computadores e tablets).
+              </p>
+            </div>
+          </div>
+          <div className="site-img mb-4 mb-lg-0">
+            <img className="img-fluid" src={site} alt="Site" />
+          </div>
+        </div>
+      </section>
+
+      <section id="clientes" className="clientes py-5">
+        <div className="container text-center">
+          <h2 className="fs-1 color-1 p-2">
+            O que nossos clientes dizem <i className="bi bi-arrow-down-left"></i>
+          </h2>
+          <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+            {[
+              {
+                src: dimas,
+                name: "Dimas",
+                title: "Diretor da Acelera Imobiliária",
+                feedback:
+                  "Com o RE.AI.s tenho uma plataforma moderna para gerenciar meus anúncios em vários portais, enviar material para clientes e fazer acompanhamento, além de acessá-lo 24h! Tudo na palma da mão!"
+              },
+              {
+                src: valeria,
+                name: "Valéria",
+                title: "Dimas Cruz e Valéria Lucena",
+                feedback:
+                  "O RE.AI.s me proporciona atender meus clientes com velocidade, praticidade e profissionalismo! Consigo oferecer o mesmo atendimento dado por grandes imobiliárias! Estou muito satisfeita!"
+              },
+              {
+                src: rogerio,
+                name: "Rogério",
+                title: "Rio Lar Imóveis",
+                feedback:
+                  "Minha experiência com o RE.AI.s foi simplesmente fora do comum. Qualidade e competência traduzem o atendimento e os serviços realizados, que faço questão de destacar."
+              },
+              {
+                src: conlar,
+                name: "Iris Anjo",
+                title: "Conlar Empreendimentos",
+                feedback:
+                  "Estamos muito satisfeitos com o serviço da RE.AI.s! Manifestamos nosso contentamento com a agilidade do sistema e o profissionalismo da equipe. Esperamos continuar essa parceria!"
+              }
+            ].map((client, index) => (
+              <div key={index} className="col">
+                <div className="card h-100">
+                  <img src={client.src} className="card-img-top p-4" alt={client.name} />
+                  <div className="card-body">
+                    <h5 className="card-title fs-3">{client.name}</h5>
+                    <h6 className="card-title fw-semibold">{client.title}</h6>
+                    <p className="card-text">{client.feedback}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section id="migracao" className="py-5">
+        <div className="container text-center">
+          <h2 className="fs-1 color-3 p-2">
+            Faz parte de outro sistema e quer migrar para o RE.AI.s?
+          </h2>
+          <h4 className="fs-5 fw-normal mb-4 p-2">
+            Mude agora mesmo com o nosso assistente de importação de forma rápida.
+          </h4>
+          <div className="d-flex justify-content-center">
+            <img src={migrar} className="img-fluid migracao" alt="Migração" />
+          </div>
+        </div>
+      </section>
+
     </div>
   )
 }

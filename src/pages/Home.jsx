@@ -4,13 +4,11 @@ import Content from '../components/Content'
 
 function Home() {
   return (
-    <div>
-
+    <>
       <Nav />
       <Content />
       <Footer />
-
-    </div>
+    </>
   )
 }
 
